@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fake高级搜索</title>
+</head>
+<body>
+    <div class="header-advanced">
+        <div class="header-advanced-logo">
+            <a href="index.html">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+            </a>
+        </div>
+        <div class="header-links">
+            <a href="index.html">Google搜索</a>
+            <a href="images.html">图片</a>
+        </div>
+    </div>
+    <div class="appbar">
+        <label>高级搜索</label>
+    </div>
+    <div class="separator-line"></div>
+    <div class="advanced-search-container">
+        <form action="https://www.google.com/search" method="get">
+            <label>使用以下条件来搜索网页...</label>
+            <div class="whitespace"></div>
+            <label>在搜索框中执行以下操作。</label>
+            <div class="form-group">
+                <label>以下所有字词：</label>
+                <input type="text" name="as_q">
+                <div class="clarification">
+                    输入重要字词： 砀山鸭梨
+                </div>
+            </div>
+            <div class="form-group">
+                <label>与以下字词完全匹配：</label>
+                <input type="text" name="as_epq">
+                <div class="clarification">
+                    用引号将需要完全匹配的字词引起： "鸭梨"
+                </div>
+            </div>
+            <div class="form-group">
+                <label>以下任意字词：</label>
+                <input type="text" name="as_oq">
+                <div class="clarification">
+                    在所需字词之间添加 OR： 批发 OR 特价
+                </div>
+            </div>
+            <div class="form-group">
+                <label>不含以下任意字词：</label>
+                <input type="text" name="as_eq">
+                <div class="clarification">
+                    在不需要的字词前添加一个减号： -山大、-"刺梨"
+                </div>
+            </div>
+            <div class="form-group">
+                <label></label>
+                <div class="right-align">
+                    <input type="submit" class="blue-button" value="高级搜索">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
